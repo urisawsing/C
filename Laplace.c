@@ -7,7 +7,7 @@ Iterating until reaching the error<tolerance,
 finally giving two txt with the initial values of the matrix and the final values
 matrix with a space nxm
 
-Oriol Fernández Serracanta
+Oriol FernÃ¡ndez Serracanta
 */
 #include <stdio.h>
 #include <math.h>
@@ -47,7 +47,6 @@ float totalerror(){
 void Initial(){
 	/*whole initial conditions set in a function*/
 	/* (take in account is very important to set the initial conditions in A2, if not the error wont converge)*/
-	int i,j;
 	for( i=0;i<n;i++){
 		float s=Sinecont(i);
 		A1[0][i]=0;
